@@ -49,7 +49,7 @@ public class SeleniumBase {
 	
 	}
 	//@AfterMethod
-	public static  void tearDown() {
+	public static  void quiteDriver() {
 		LOG.info("Browser Closed");
 		
 		Constance.driver.quit();

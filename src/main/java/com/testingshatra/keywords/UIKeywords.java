@@ -12,6 +12,7 @@ import org.testng.log4testng.Logger;
 
 import com.testingshashtra.utility.Config;
 import com.testingshashtra.utility.Constance;
+import com.testingsshatra.exceptions.UnabletoGetBrowserException;
 
 import io.cucumber.messages.internal.com.google.protobuf.util.TimeUtil;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -46,8 +47,11 @@ private static final Logger LOG = Logger.getLogger(UIKeywords.class);
 			break;
 		default:
 			LOG.error("Invalide Browser");
-			break;
+			throw new UnabletoGetBrowserException();
 		}
+		
+		Constance.driver.manage().deleteAllCookies();
+		Constance.driver.manage().window().maximize();
 	}
 	
 	public void openUrl(String url) {
@@ -66,7 +70,5 @@ private static final Logger LOG = Logger.getLogger(UIKeywords.class);
 	public void clearDropdownText(By by) {
 		Constance.select = new Select(Constance.driver.findElement(by));
 		Constance.select.deselectByIndex(0);
-		
-		
 	}
 }

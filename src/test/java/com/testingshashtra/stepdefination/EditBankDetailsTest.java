@@ -3,12 +3,9 @@ package com.testingshashtra.stepdefination;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 
-import com.testingshashtra.utility.WaitFor;
 import com.testingshatra.keywords.UIKeywords;
 import com.testingshshtra.pages.AddBankPage;
 import com.testingshshtra.pages.EditBankPage;
-import com.testingshshtra.pages.MasterPage;
-
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -38,19 +35,19 @@ public void clickOnEditButton() {
 @Then("Change Data and Click on Edit submit button")
 public void change_data_and_click_on_edit_submit_button() throws InterruptedException {
 	Thread.sleep(1000);
-	keyword.clearTextBox(abp.bankName);
-	abp.enterBankName("BOI");
-	keyword.clearTextBox(abp.accountName);
+	keyword.clearTextBox(abp.getBankName());
+	abp.enterBankName("BOIndia");
+	keyword.clearTextBox(abp.getAccountName());
 	abp.enterAccountName("AWS");
-	keyword.clearTextBox(abp.accountNo);
-	abp.enterAccountNumber("45612354687123");
+	keyword.clearTextBox(abp.getAccountNo());
+	abp.enterAccountNumber("612354687123");
 	abp.selectAccountType("Savings");
-	keyword.clearTextBox(abp.ifscCode);
-	abp.enterIFSCCode("UN0001235468");
-	keyword.clearTextBox(abp.micrCode);
-	abp.enterMICRCode("45687911");
-    abp.clickOnSubmitBtn();
-	abp.clickOnConfirmButton();
+	keyword.clearTextBox(abp.getIfscCode());
+	abp.enterIFSCCode("UN01235468");
+	keyword.clearTextBox(abp.getMicrCode());
+	abp.enterMICRCode("545687911");
+    abp.clickOnSubmitButton();
+	abp.clickOnOKButton();
 }
 
 @Then("Assert updated result")

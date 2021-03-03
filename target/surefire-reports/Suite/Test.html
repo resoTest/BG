@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/7/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Feb 24 23:48:45 IST 2021</td>
+<td>Started on:</td><td>Wed Mar 03 17:54:42 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>134 seconds (134646 ms)</td>
+<tr><td>Total time:</td><td>287 seconds (287596 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,51 +75,173 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.testingshashtra.utility.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.testingshashtra.utility.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user able to update bank data", "Optional[This Feature test the edit fuctionality]"</td>
-<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=88.0.4324.190)
+<td title='com.testingshastra.testrunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.testingshastra.testrunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify  bank name field", "Optional[this feature test the add  bank functionality]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: accountType
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ACER-PC&apos;, ip: &apos;192.168.42.15&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_241&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ACERUS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:37583}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 923780e5bc27b4971c8613043b5c385a
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
-	at com.testingshatra.keywords.UIKeywords.clearTextBox(UIKeywords.java:63)
-	at com.testingshashtra.stepdefination.EditBankDetailsTest.change_data_and_click_on_edit_submit_button(EditBankDetailsTest.java:41)
-	at ?.Change Data and Click on Edit submit button(file:///E:/Hawthorn2020/BhimanGroup/src/main/resources/Features/EditBankDetail.feature:11)
-... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace6174875", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace6174875'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=88.0.4324.190)
+System info: host: &apos;ACER-PC&apos;, ip: &apos;192.168.42.200&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.testingshshtra.pages.AddBankPage.selectAccountType(AddBankPage.java:112)
+	at com.testingshashtra.stepdefination.AddBankTest.enter(AddBankTest.java:45)
+	at ?.Enter &apos;12&apos; , &apos;abc&apos;,&apos;123456789123&apos;,&apos;Savings&apos; ,&apos;ABCD0012&apos;,&apos;123456789&apos;(file:///D:/Git%20Projects/ResoProject/BG/src/main/resources/Features/AddBankFeatures.feature:25)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2189588", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2189588'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: accountType
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ACER-PC&apos;, ip: &apos;192.168.42.15&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_241&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ACERUS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:37583}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 923780e5bc27b4971c8613043b5c385a
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
-	at com.testingshatra.keywords.UIKeywords.clearTextBox(UIKeywords.java:63)
-	at com.testingshashtra.stepdefination.EditBankDetailsTest.change_data_and_click_on_edit_submit_button(EditBankDetailsTest.java:41)
-	at ?.Change Data and Click on Edit submit button(file:///E:/Hawthorn2020/BhimanGroup/src/main/resources/Features/EditBankDetail.feature:11)
+System info: host: &apos;ACER-PC&apos;, ip: &apos;192.168.42.200&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.testingshshtra.pages.AddBankPage.selectAccountType(AddBankPage.java:112)
+	at com.testingshashtra.stepdefination.AddBankTest.enter(AddBankTest.java:45)
+	at ?.Enter &apos;12&apos; , &apos;abc&apos;,&apos;123456789123&apos;,&apos;Savings&apos; ,&apos;ABCD0012&apos;,&apos;123456789&apos;(file:///D:/Git%20Projects/ResoProject/BG/src/main/resources/Features/AddBankFeatures.feature:25)
 </pre></div></td>
-<td>43</td>
-<td>com.testingshashtra.utility.RunnerTest@2fc1d</td></tr>
+<td>35</td>
+<td>com.testingshastra.testrunner.RunnerTest@134d211</td></tr>
+<tr>
+<td title='com.testingshastra.testrunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.testingshastra.testrunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify  bank name field", "Optional[this feature test the add  bank functionality]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: accountType
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ACER-PC&apos;, ip: &apos;192.168.42.200&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.testingshshtra.pages.AddBankPage.selectAccountType(AddBankPage.java:112)
+	at com.testingshashtra.stepdefination.AddBankTest.enter(AddBankTest.java:45)
+	at ?.Enter &apos;121223&apos; , &apos;abc&apos;,&apos;123456789123&apos;,&apos;Savings&apos; ,&apos;ABCD0012&apos;,&apos;123456789&apos;(file:///D:/Git%20Projects/ResoProject/BG/src/main/resources/Features/AddBankFeatures.feature:25)
+</pre></div><a href='#' onClick='toggleBox("stack-trace3447701", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace3447701'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: accountType
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ACER-PC&apos;, ip: &apos;192.168.42.200&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.testingshshtra.pages.AddBankPage.selectAccountType(AddBankPage.java:112)
+	at com.testingshashtra.stepdefination.AddBankTest.enter(AddBankTest.java:45)
+	at ?.Enter &apos;121223&apos; , &apos;abc&apos;,&apos;123456789123&apos;,&apos;Savings&apos; ,&apos;ABCD0012&apos;,&apos;123456789&apos;(file:///D:/Git%20Projects/ResoProject/BG/src/main/resources/Features/AddBankFeatures.feature:25)
+</pre></div></td>
+<td>32</td>
+<td>com.testingshastra.testrunner.RunnerTest@134d211</td></tr>
+<tr>
+<td title='com.testingshastra.testrunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.testingshastra.testrunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify  bank name field", "Optional[this feature test the add  bank functionality]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: accountType
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ACER-PC&apos;, ip: &apos;192.168.42.200&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.testingshshtra.pages.AddBankPage.selectAccountType(AddBankPage.java:112)
+	at com.testingshashtra.stepdefination.AddBankTest.enter(AddBankTest.java:45)
+	at ?.Enter &apos;ds&apos; , &apos;abc&apos;,&apos;123456789123&apos;,&apos;Savings&apos; ,&apos;ABCD0012&apos;,&apos;123456789&apos;(file:///D:/Git%20Projects/ResoProject/BG/src/main/resources/Features/AddBankFeatures.feature:25)
+</pre></div><a href='#' onClick='toggleBox("stack-trace31675850", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace31675850'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: accountType
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ACER-PC&apos;, ip: &apos;192.168.42.200&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.testingshshtra.pages.AddBankPage.selectAccountType(AddBankPage.java:112)
+	at com.testingshashtra.stepdefination.AddBankTest.enter(AddBankTest.java:45)
+	at ?.Enter &apos;ds&apos; , &apos;abc&apos;,&apos;123456789123&apos;,&apos;Savings&apos; ,&apos;ABCD0012&apos;,&apos;123456789&apos;(file:///D:/Git%20Projects/ResoProject/BG/src/main/resources/Features/AddBankFeatures.feature:25)
+</pre></div></td>
+<td>32</td>
+<td>com.testingshastra.testrunner.RunnerTest@134d211</td></tr>
+<tr>
+<td title='com.testingshastra.testrunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.testingshastra.testrunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify  bank name field", "Optional[this feature test the add  bank functionality]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: accountType
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ACER-PC&apos;, ip: &apos;192.168.42.200&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.testingshshtra.pages.AddBankPage.selectAccountType(AddBankPage.java:112)
+	at com.testingshashtra.stepdefination.AddBankTest.enter(AddBankTest.java:45)
+	at ?.Enter &apos;12asssfd%vvd&apos; , &apos;abc&apos;,&apos;123456789123&apos;,&apos;Savings&apos; ,&apos;ABCD0012&apos;,&apos;123456789&apos;(file:///D:/Git%20Projects/ResoProject/BG/src/main/resources/Features/AddBankFeatures.feature:25)
+</pre></div><a href='#' onClick='toggleBox("stack-trace14759804", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace14759804'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: accountType
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ACER-PC&apos;, ip: &apos;192.168.42.200&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.testingshshtra.pages.AddBankPage.selectAccountType(AddBankPage.java:112)
+	at com.testingshashtra.stepdefination.AddBankTest.enter(AddBankTest.java:45)
+	at ?.Enter &apos;12asssfd%vvd&apos; , &apos;abc&apos;,&apos;123456789123&apos;,&apos;Savings&apos; ,&apos;ABCD0012&apos;,&apos;123456789&apos;(file:///D:/Git%20Projects/ResoProject/BG/src/main/resources/Features/AddBankFeatures.feature:25)
+</pre></div></td>
+<td>32</td>
+<td>com.testingshastra.testrunner.RunnerTest@134d211</td></tr>
+<tr>
+<td title='com.testingshastra.testrunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.testingshastra.testrunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify  bank name field", "Optional[this feature test the add  bank functionality]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: accountType
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ACER-PC&apos;, ip: &apos;192.168.42.200&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.testingshshtra.pages.AddBankPage.selectAccountType(AddBankPage.java:112)
+	at com.testingshashtra.stepdefination.AddBankTest.enter(AddBankTest.java:45)
+	at ?.Enter &apos;jgjf dkfgkj&apos; , &apos;abc&apos;,&apos;123456789123&apos;,&apos;Savings&apos; ,&apos;ABCD0012&apos;,&apos;123456789&apos;(file:///D:/Git%20Projects/ResoProject/BG/src/main/resources/Features/AddBankFeatures.feature:25)
+</pre></div><a href='#' onClick='toggleBox("stack-trace9447002", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace9447002'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: accountType
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ACER-PC&apos;, ip: &apos;192.168.42.200&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.testingshshtra.pages.AddBankPage.selectAccountType(AddBankPage.java:112)
+	at com.testingshashtra.stepdefination.AddBankTest.enter(AddBankTest.java:45)
+	at ?.Enter &apos;jgjf dkfgkj&apos; , &apos;abc&apos;,&apos;123456789123&apos;,&apos;Savings&apos; ,&apos;ABCD0012&apos;,&apos;123456789&apos;(file:///D:/Git%20Projects/ResoProject/BG/src/main/resources/Features/AddBankFeatures.feature:25)
+</pre></div></td>
+<td>31</td>
+<td>com.testingshastra.testrunner.RunnerTest@134d211</td></tr>
+<tr>
+<td title='com.testingshastra.testrunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.testingshastra.testrunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify  bank name field", "Optional[this feature test the add  bank functionality]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: accountType
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ACER-PC&apos;, ip: &apos;192.168.42.200&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.testingshshtra.pages.AddBankPage.selectAccountType(AddBankPage.java:112)
+	at com.testingshashtra.stepdefination.AddBankTest.enter(AddBankTest.java:45)
+	at ?.Enter &apos;&apos; , &apos;abc&apos;,&apos;123456789123&apos;,&apos;Savings&apos; ,&apos;ABCD0012&apos;,&apos;123456789&apos;(file:///D:/Git%20Projects/ResoProject/BG/src/main/resources/Features/AddBankFeatures.feature:25)
+</pre></div><a href='#' onClick='toggleBox("stack-trace15567322", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace15567322'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: accountType
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ACER-PC&apos;, ip: &apos;192.168.42.200&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.testingshshtra.pages.AddBankPage.selectAccountType(AddBankPage.java:112)
+	at com.testingshashtra.stepdefination.AddBankTest.enter(AddBankTest.java:45)
+	at ?.Enter &apos;&apos; , &apos;abc&apos;,&apos;123456789123&apos;,&apos;Savings&apos; ,&apos;ABCD0012&apos;,&apos;123456789&apos;(file:///D:/Git%20Projects/ResoProject/BG/src/main/resources/Features/AddBankFeatures.feature:25)
+</pre></div></td>
+<td>34</td>
+<td>com.testingshastra.testrunner.RunnerTest@134d211</td></tr>
+<tr>
+<td title='com.testingshastra.testrunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.testingshastra.testrunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify  bank name field", "Optional[this feature test the add  bank functionality]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: accountType
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ACER-PC&apos;, ip: &apos;192.168.42.200&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.testingshshtra.pages.AddBankPage.selectAccountType(AddBankPage.java:112)
+	at com.testingshashtra.stepdefination.AddBankTest.enter(AddBankTest.java:45)
+	at ?.Enter &apos;12&apos; , &apos;abc&apos;,&apos;123456789123&apos;,&apos;Savings&apos; ,&apos;ABCD0012&apos;,&apos;123456789&apos;(file:///D:/Git%20Projects/ResoProject/BG/src/main/resources/Features/AddBankFeatures.feature:25)
+</pre></div><a href='#' onClick='toggleBox("stack-trace13827931", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace13827931'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: accountType
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ACER-PC&apos;, ip: &apos;192.168.42.200&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.testingshshtra.pages.AddBankPage.selectAccountType(AddBankPage.java:112)
+	at com.testingshashtra.stepdefination.AddBankTest.enter(AddBankTest.java:45)
+	at ?.Enter &apos;12&apos; , &apos;abc&apos;,&apos;123456789123&apos;,&apos;Savings&apos; ,&apos;ABCD0012&apos;,&apos;123456789&apos;(file:///D:/Git%20Projects/ResoProject/BG/src/main/resources/Features/AddBankFeatures.feature:25)
+</pre></div></td>
+<td>32</td>
+<td>com.testingshastra.testrunner.RunnerTest@134d211</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -129,15 +251,20 @@ Session ID: 923780e5bc27b4971c8613043b5c385a
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.testingshashtra.utility.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.testingshashtra.utility.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify add bank for valid data", "Optional[this feature test the add  bank functionality]"</td>
+<td title='com.testingshastra.testrunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.testingshastra.testrunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user able to update bank data", "Optional[This Feature test the edit fuctionality]"</td>
 <td></td>
-<td>55</td>
-<td>com.testingshashtra.utility.RunnerTest@2fc1d</td></tr>
+<td>15</td>
+<td>com.testingshastra.testrunner.RunnerTest@134d211</td></tr>
 <tr>
-<td title='com.testingshashtra.utility.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.testingshashtra.utility.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify master menu shows submenu list", "Optional[this feature test the main module functinality]"</td>
+<td title='com.testingshastra.testrunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.testingshastra.testrunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify Login for valid input", "Optional[This feature Test the login page  for valid and invalid Input]"</td>
 <td></td>
-<td>33</td>
-<td>com.testingshashtra.utility.RunnerTest@2fc1d</td></tr>
+<td>8</td>
+<td>com.testingshastra.testrunner.RunnerTest@134d211</td></tr>
+<tr>
+<td title='com.testingshastra.testrunner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.testingshastra.testrunner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify master menu shows submenu list", "Optional[this feature test the main module functinality]"</td>
+<td></td>
+<td>28</td>
+<td>com.testingshastra.testrunner.RunnerTest@134d211</td></tr>
 </table><p>
 </body>
 </html>

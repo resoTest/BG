@@ -3,7 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.testingshashtra.utility.RunnerTest"/>
+      <!-- <class name="com.testingshashtra.utility.RunnerTest"/>  -->
+      <class name="com.testingshastra.testrunner.RunnerTest"/>
        </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
