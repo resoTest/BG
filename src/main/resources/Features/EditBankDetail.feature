@@ -1,4 +1,4 @@
-@Smoke
+
 Feature: This Feature test the edit fuctionality
 
   Background: 

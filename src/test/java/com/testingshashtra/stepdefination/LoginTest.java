@@ -15,7 +15,7 @@ import io.cucumber.java.en.When;
 public class LoginTest {
 	private static final Logger LOG = Logger.getLogger(LoginTest.class);
 
-	LoginPage l = new LoginPage();
+	private LoginPage l = new LoginPage();
 	// SoftAssert asrt = new SoftAssert();
 
 	@Given("I have {string} as mobile no")

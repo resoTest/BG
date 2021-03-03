@@ -1,20 +1,46 @@
-2021-Feb-26 18:57:00,571 [main] com.testingshashtra.utility.Config 
-  INFO  Lunching Browser : http://103.50.162.196/testing/user-login.php
-2021-Feb-26 18:57:04,693 [main] com.testingshashtra.stepdefination.LoginTest 
-  INFO  Password Field Error: Your password must be at least 5 characters long
-2021-Feb-26 18:57:04,694 [main] com.testingshatra.setup.SeleniumBase 
+2021-Mar-03 19:21:00,125 [main] com.testingshshtra.pages.AddBankPage 
+  INFO  Click on Submit button
+2021-Mar-03 19:21:00,128 [main] com.testingshashtra.stepdefination.AddBankTest 
+  INFO  Asserting Error in Label 
+2021-Mar-03 19:21:00,247 [main] com.testingshashtra.stepdefination.AddBankTest 
+  INFO  Message Get Please Enter Bank Name
+2021-Mar-03 19:21:00,250 [main] com.testingshatra.setup.SeleniumBase 
   INFO  Browser Closed
-2021-Feb-26 18:57:10,561 [main] com.testingshashtra.utility.Config 
+2021-Mar-03 19:21:04,631 [main] com.testingshashtra.utility.Config 
   INFO  Lunching Browser : http://103.50.162.196/testing/user-login.php
-2021-Feb-26 18:57:15,354 [main] com.testingshashtra.stepdefination.LoginTest 
-  INFO  Password Field is Empty : Please provide a password
-2021-Feb-26 18:57:15,354 [main] com.testingshatra.setup.SeleniumBase 
-  INFO  Browser Closed
-2021-Feb-26 18:57:20,451 [main] com.testingshashtra.utility.Config 
-  INFO  Lunching Browser : http://103.50.162.196/testing/user-login.php
-2021-Feb-26 18:57:25,348 [main] com.testingshashtra.stepdefination.LoginTest 
-  INFO  Mobile field is blank 
-2021-Feb-26 18:57:25,349 [main] com.testingshashtra.stepdefination.LoginTest 
-  INFO  Password field is blank 
-2021-Feb-26 18:57:25,350 [main] com.testingshatra.setup.SeleniumBase 
+2021-Mar-03 19:21:08,770 [main] com.testingshshtra.pages.LoginPage 
+  INFO  Getting dashboard text
+2021-Mar-03 19:21:08,816 [main] com.testingshashtra.stepdefination.LoginTest 
+  INFO  LOGIN SUCCESSFULLY and Redirect on  Dashboard Page
+2021-Mar-03 19:21:08,988 [main] com.testingshashtra.stepdefination.AddBankTest 
+  INFO  Master Menu Clicked
+2021-Mar-03 19:21:10,857 [main] com.testingshashtra.stepdefination.AddBankTest 
+  INFO  Bank Sub Menu Clicked
+2021-Mar-03 19:21:10,859 [main] com.testingshashtra.stepdefination.AddBankTest 
+  INFO  Waiting For Visibility Add Bank button
+2021-Mar-03 19:21:10,960 [main] com.testingshshtra.pages.AddBankPage 
+  INFO  Click On  Add Bank Button
+2021-Mar-03 19:21:11,112 [main] com.testingshashtra.stepdefination.AddBankTest 
+  INFO  Click on  Add Bank button
+2021-Mar-03 19:21:11,449 [main] com.testingshshtra.pages.AddBankPage 
+  INFO  Entering Bank Name ds
+2021-Mar-03 19:21:11,675 [main] com.testingshshtra.pages.AddBankPage 
+  INFO  Entering Account Name abc
+2021-Mar-03 19:21:11,852 [main] com.testingshshtra.pages.AddBankPage 
+  INFO  Entering  Account number   123456789123
+2021-Mar-03 19:21:12,026 [main] com.testingshshtra.pages.AddBankPage 
+  INFO  Selecting  Account Type  Savings
+2021-Mar-03 19:21:12,181 [main] com.testingshshtra.pages.AddBankPage 
+  INFO  Entering IFSC Code  ABCD0012
+2021-Mar-03 19:21:12,325 [main] com.testingshshtra.pages.AddBankPage 
+  INFO  Entering MICR Code  123456789
+2021-Mar-03 19:21:12,326 [main] com.testingshashtra.stepdefination.AddBankTest 
+  INFO  Click on Submit button
+2021-Mar-03 19:21:12,451 [main] com.testingshshtra.pages.AddBankPage 
+  INFO  Click on Submit button
+2021-Mar-03 19:21:12,452 [main] com.testingshashtra.stepdefination.AddBankTest 
+  INFO  Asserting Error in Label 
+2021-Mar-03 19:21:12,567 [main] com.testingshashtra.stepdefination.AddBankTest 
+  INFO  Message Get Please Enter Bank Name
+2021-Mar-03 19:21:12,569 [main] com.testingshatra.setup.SeleniumBase 
   INFO  Browser Closed

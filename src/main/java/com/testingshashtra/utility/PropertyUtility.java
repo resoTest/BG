@@ -9,6 +9,7 @@ import org.apache.log4j.Logger;
 
 public class PropertyUtility {
 	private static final Logger LOG = Logger.getLogger(PropertyUtility.class);
+	
 	public String getFileProperty(String key) {
 		Properties prop = loadApplicationProperties(); 
 		return prop.getProperty(key);
