@@ -1,46 +1,116 @@
-2021-Mar-03 19:21:00,125 [main] com.testingshshtra.pages.AddBankPage 
-  INFO  Click on Submit button
-2021-Mar-03 19:21:00,128 [main] com.testingshashtra.stepdefination.AddBankTest 
-  INFO  Asserting Error in Label 
-2021-Mar-03 19:21:00,247 [main] com.testingshashtra.stepdefination.AddBankTest 
-  INFO  Message Get Please Enter Bank Name
-2021-Mar-03 19:21:00,250 [main] com.testingshatra.setup.SeleniumBase 
-  INFO  Browser Closed
-2021-Mar-03 19:21:04,631 [main] com.testingshashtra.utility.Config 
-  INFO  Lunching Browser : http://103.50.162.196/testing/user-login.php
-2021-Mar-03 19:21:08,770 [main] com.testingshshtra.pages.LoginPage 
+2021-Mar-04 23:42:02,749 [main] com.testingshshtra.pages.LoginPage 
   INFO  Getting dashboard text
-2021-Mar-03 19:21:08,816 [main] com.testingshashtra.stepdefination.LoginTest 
+2021-Mar-04 23:42:02,795 [main] com.testingshashtra.stepdefination.LoginTest 
   INFO  LOGIN SUCCESSFULLY and Redirect on  Dashboard Page
-2021-Mar-03 19:21:08,988 [main] com.testingshashtra.stepdefination.AddBankTest 
+2021-Mar-04 23:42:02,979 [main] com.testingshashtra.stepdefination.AddBankTest 
   INFO  Master Menu Clicked
-2021-Mar-03 19:21:10,857 [main] com.testingshashtra.stepdefination.AddBankTest 
+2021-Mar-04 23:42:05,342 [main] com.testingshashtra.stepdefination.AddBankTest 
   INFO  Bank Sub Menu Clicked
-2021-Mar-03 19:21:10,859 [main] com.testingshashtra.stepdefination.AddBankTest 
+2021-Mar-04 23:42:05,344 [main] com.testingshashtra.stepdefination.AddBankTest 
   INFO  Waiting For Visibility Add Bank button
-2021-Mar-03 19:21:10,960 [main] com.testingshshtra.pages.AddBankPage 
+2021-Mar-04 23:42:05,451 [main] com.testingshshtra.pages.AddBankPage 
   INFO  Click On  Add Bank Button
-2021-Mar-03 19:21:11,112 [main] com.testingshashtra.stepdefination.AddBankTest 
+2021-Mar-04 23:42:05,615 [main] com.testingshashtra.stepdefination.AddBankTest 
   INFO  Click on  Add Bank button
-2021-Mar-03 19:21:11,449 [main] com.testingshshtra.pages.AddBankPage 
-  INFO  Entering Bank Name ds
-2021-Mar-03 19:21:11,675 [main] com.testingshshtra.pages.AddBankPage 
-  INFO  Entering Account Name abc
-2021-Mar-03 19:21:11,852 [main] com.testingshshtra.pages.AddBankPage 
+2021-Mar-04 23:42:06,070 [main] com.testingshshtra.pages.AddBankPage 
+  INFO  Entering Bank Name abcs
+2021-Mar-04 23:42:06,281 [main] com.testingshshtra.pages.AddBankPage 
+  INFO  Entering Account Name abc defe
+2021-Mar-04 23:42:06,452 [main] com.testingshshtra.pages.AddBankPage 
   INFO  Entering  Account number   123456789123
-2021-Mar-03 19:21:12,026 [main] com.testingshshtra.pages.AddBankPage 
+2021-Mar-04 23:42:06,736 [main] com.testingshshtra.pages.AddBankPage 
   INFO  Selecting  Account Type  Savings
-2021-Mar-03 19:21:12,181 [main] com.testingshshtra.pages.AddBankPage 
+2021-Mar-04 23:42:06,934 [main] com.testingshshtra.pages.AddBankPage 
   INFO  Entering IFSC Code  ABCD0012
-2021-Mar-03 19:21:12,325 [main] com.testingshshtra.pages.AddBankPage 
-  INFO  Entering MICR Code  123456789
-2021-Mar-03 19:21:12,326 [main] com.testingshashtra.stepdefination.AddBankTest 
+2021-Mar-04 23:42:07,081 [main] com.testingshshtra.pages.AddBankPage 
+  INFO  Entering MICR Code  12345678
+2021-Mar-04 23:42:07,084 [main] com.testingshashtra.stepdefination.AddBankTest 
   INFO  Click on Submit button
-2021-Mar-03 19:21:12,451 [main] com.testingshshtra.pages.AddBankPage 
+2021-Mar-04 23:42:07,206 [main] com.testingshshtra.pages.AddBankPage 
   INFO  Click on Submit button
-2021-Mar-03 19:21:12,452 [main] com.testingshashtra.stepdefination.AddBankTest 
+2021-Mar-04 23:42:07,207 [main] com.testingshashtra.stepdefination.AddBankTest 
   INFO  Asserting Error in Label 
-2021-Mar-03 19:21:12,567 [main] com.testingshashtra.stepdefination.AddBankTest 
-  INFO  Message Get Please Enter Bank Name
-2021-Mar-03 19:21:12,569 [main] com.testingshatra.setup.SeleniumBase 
+2021-Mar-04 23:42:07,292 [main] com.testingshashtra.stepdefination.AddBankTest 
+  INFO  Length of text  8
+2021-Mar-04 23:42:07,292 [main] com.testingshashtra.stepdefination.AddBankTest 
+  INFO  Message Get MICR Code Must Be Of 9 Digits
+2021-Mar-04 23:42:07,296 [main] com.testingshatra.setup.SeleniumBase 
+  INFO  Browser Closed
+2021-Mar-04 23:42:12,695 [main] com.testingshashtra.utility.Config 
+  INFO  Lunching Browser : http://103.50.162.196/testing/user-login.php
+2021-Mar-04 23:42:17,487 [main] com.testingshshtra.pages.LoginPage 
+  INFO  Getting dashboard text
+2021-Mar-04 23:42:17,534 [main] com.testingshashtra.stepdefination.LoginTest 
+  INFO  LOGIN SUCCESSFULLY and Redirect on  Dashboard Page
+2021-Mar-04 23:42:17,713 [main] com.testingshashtra.stepdefination.AddBankTest 
+  INFO  Master Menu Clicked
+2021-Mar-04 23:42:19,748 [main] com.testingshashtra.stepdefination.AddBankTest 
+  INFO  Bank Sub Menu Clicked
+2021-Mar-04 23:42:19,749 [main] com.testingshashtra.stepdefination.AddBankTest 
+  INFO  Waiting For Visibility Add Bank button
+2021-Mar-04 23:42:19,881 [main] com.testingshshtra.pages.AddBankPage 
+  INFO  Click On  Add Bank Button
+2021-Mar-04 23:42:20,051 [main] com.testingshashtra.stepdefination.AddBankTest 
+  INFO  Click on  Add Bank button
+2021-Mar-04 23:42:20,503 [main] com.testingshshtra.pages.AddBankPage 
+  INFO  Entering Bank Name abcs
+2021-Mar-04 23:42:20,752 [main] com.testingshshtra.pages.AddBankPage 
+  INFO  Entering Account Name abc defe
+2021-Mar-04 23:42:20,913 [main] com.testingshshtra.pages.AddBankPage 
+  INFO  Entering  Account number   123456789123
+2021-Mar-04 23:42:21,097 [main] com.testingshshtra.pages.AddBankPage 
+  INFO  Selecting  Account Type  Savings
+2021-Mar-04 23:42:21,295 [main] com.testingshshtra.pages.AddBankPage 
+  INFO  Entering IFSC Code  ABCD0012
+2021-Mar-04 23:42:21,473 [main] com.testingshshtra.pages.AddBankPage 
+  INFO  Entering MICR Code  12345678912
+2021-Mar-04 23:42:21,474 [main] com.testingshashtra.stepdefination.AddBankTest 
+  INFO  Click on Submit button
+2021-Mar-04 23:42:21,599 [main] com.testingshshtra.pages.AddBankPage 
+  INFO  Click on Submit button
+2021-Mar-04 23:42:21,600 [main] com.testingshashtra.stepdefination.AddBankTest 
+  INFO  Asserting Error in Label 
+2021-Mar-04 23:42:21,677 [main] com.testingshashtra.stepdefination.AddBankTest 
+  INFO  Length of text  11
+2021-Mar-04 23:42:21,698 [main] com.testingshashtra.stepdefination.AddBankTest 
+  INFO  Message Get MICR Code Must Be Of 9 Digits
+2021-Mar-04 23:42:21,699 [main] com.testingshatra.setup.SeleniumBase 
+  INFO  Browser Closed
+2021-Mar-04 23:42:27,242 [main] com.testingshashtra.utility.Config 
+  INFO  Lunching Browser : http://103.50.162.196/testing/user-login.php
+2021-Mar-04 23:42:32,818 [main] com.testingshshtra.pages.LoginPage 
+  INFO  Getting dashboard text
+2021-Mar-04 23:42:32,867 [main] com.testingshashtra.stepdefination.LoginTest 
+  INFO  LOGIN SUCCESSFULLY and Redirect on  Dashboard Page
+2021-Mar-04 23:42:33,060 [main] com.testingshashtra.stepdefination.AddBankTest 
+  INFO  Master Menu Clicked
+2021-Mar-04 23:42:35,081 [main] com.testingshashtra.stepdefination.AddBankTest 
+  INFO  Bank Sub Menu Clicked
+2021-Mar-04 23:42:35,082 [main] com.testingshashtra.stepdefination.AddBankTest 
+  INFO  Waiting For Visibility Add Bank button
+2021-Mar-04 23:42:35,199 [main] com.testingshshtra.pages.AddBankPage 
+  INFO  Click On  Add Bank Button
+2021-Mar-04 23:42:35,369 [main] com.testingshashtra.stepdefination.AddBankTest 
+  INFO  Click on  Add Bank button
+2021-Mar-04 23:42:35,878 [main] com.testingshshtra.pages.AddBankPage 
+  INFO  Entering Bank Name abcs
+2021-Mar-04 23:42:36,043 [main] com.testingshshtra.pages.AddBankPage 
+  INFO  Entering Account Name abc defe
+2021-Mar-04 23:42:36,197 [main] com.testingshshtra.pages.AddBankPage 
+  INFO  Entering  Account number   123456789123
+2021-Mar-04 23:42:36,339 [main] com.testingshshtra.pages.AddBankPage 
+  INFO  Selecting  Account Type  Savings
+2021-Mar-04 23:42:36,489 [main] com.testingshshtra.pages.AddBankPage 
+  INFO  Entering IFSC Code  ABCD0012
+2021-Mar-04 23:42:36,592 [main] com.testingshshtra.pages.AddBankPage 
+  INFO  Entering MICR Code  
+2021-Mar-04 23:42:36,593 [main] com.testingshashtra.stepdefination.AddBankTest 
+  INFO  Click on Submit button
+2021-Mar-04 23:42:36,713 [main] com.testingshshtra.pages.AddBankPage 
+  INFO  Click on Submit button
+2021-Mar-04 23:42:36,714 [main] com.testingshashtra.stepdefination.AddBankTest 
+  INFO  Asserting Error in Label 
+2021-Mar-04 23:42:36,791 [main] com.testingshashtra.stepdefination.AddBankTest 
+  INFO  Length of text  0
+2021-Mar-04 23:42:36,792 [main] com.testingshatra.setup.SeleniumBase 
   INFO  Browser Closed

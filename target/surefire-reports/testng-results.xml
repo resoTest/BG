@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="7" ignored="0" total="10" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="287596" started-at="2021-03-03T12:24:42Z" finished-at="2021-03-03T12:29:29Z">
+  <suite name="Suite" duration-ms="54197" started-at="2021-03-04T10:26:26Z" finished-at="2021-03-04T10:27:21Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.testrunner.RunnerTest@134d211]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="287596" started-at="2021-03-03T12:24:42Z" finished-at="2021-03-03T12:29:29Z">
+    <test name="Test" duration-ms="54197" started-at="2021-03-04T10:26:26Z" finished-at="2021-03-04T10:27:21Z">
       <class name="com.testingshastra.testrunner.RunnerTest">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.testingshastra.testrunner.RunnerTest@134d211]" name="setUpClass" is-config="true" duration-ms="960" started-at="2021-03-03T12:24:42Z" finished-at="2021-03-03T12:24:43Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.testingshastra.testrunner.RunnerTest@134d211]" name="setUpClass" is-config="true" duration-ms="1172" started-at="2021-03-04T10:26:26Z" finished-at="2021-03-04T10:26:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.testrunner.RunnerTest@134d211]" name="runScenario" duration-ms="35353" started-at="2021-03-03T12:24:43Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-03T12:25:18Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.testrunner.RunnerTest@134d211]" name="runScenario" duration-ms="14018" started-at="2021-03-04T10:26:28Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-04T10:26:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA["verify  bank name field"]]>
+                <![CDATA["verify  Account Number field for invalid data"]]>
               </value>
             </param>
             <param index="1">
@@ -27,35 +27,14 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Cannot locate element with text: accountType
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ACER-PC', ip: '192.168.42.200', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_241'
-Driver info: driver.version: unknown]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: accountType
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ACER-PC', ip: '192.168.42.200', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_241'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
-at com.testingshshtra.pages.AddBankPage.selectAccountType(AddBankPage.java:112)
-at com.testingshashtra.stepdefination.AddBankTest.enter(AddBankTest.java:45)
-at ✽.Enter '12' , 'abc','123456789123','Savings' ,'ABCD0012','123456789'(file:///D:/Git%20Projects/ResoProject/BG/src/main/resources/Features/AddBankFeatures.feature:25)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.testrunner.RunnerTest@134d211]" name="runScenario" duration-ms="32271" started-at="2021-03-03T12:25:18Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-03T12:25:50Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.testrunner.RunnerTest@134d211]" name="runScenario" duration-ms="12458" started-at="2021-03-04T10:26:42Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-04T10:26:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA["verify  bank name field"]]>
+                <![CDATA["verify  Account Number field for invalid data"]]>
               </value>
             </param>
             <param index="1">
@@ -64,35 +43,14 @@ at ✽.Enter '12' , 'abc','123456789123','Savings' ,'ABCD0012','123456789'(file:
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Cannot locate element with text: accountType
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ACER-PC', ip: '192.168.42.200', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_241'
-Driver info: driver.version: unknown]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: accountType
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ACER-PC', ip: '192.168.42.200', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_241'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
-at com.testingshshtra.pages.AddBankPage.selectAccountType(AddBankPage.java:112)
-at com.testingshashtra.stepdefination.AddBankTest.enter(AddBankTest.java:45)
-at ✽.Enter '121223' , 'abc','123456789123','Savings' ,'ABCD0012','123456789'(file:///D:/Git%20Projects/ResoProject/BG/src/main/resources/Features/AddBankFeatures.feature:25)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.testrunner.RunnerTest@134d211]" name="runScenario" duration-ms="32674" started-at="2021-03-03T12:25:50Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-03T12:26:23Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.testrunner.RunnerTest@134d211]" name="runScenario" duration-ms="11840" started-at="2021-03-04T10:26:54Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-04T10:27:06Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA["verify  bank name field"]]>
+                <![CDATA["verify  Account Number field for invalid data"]]>
               </value>
             </param>
             <param index="1">
@@ -101,35 +59,14 @@ at ✽.Enter '121223' , 'abc','123456789123','Savings' ,'ABCD0012','123456789'(f
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Cannot locate element with text: accountType
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ACER-PC', ip: '192.168.42.200', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_241'
-Driver info: driver.version: unknown]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: accountType
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ACER-PC', ip: '192.168.42.200', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_241'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
-at com.testingshshtra.pages.AddBankPage.selectAccountType(AddBankPage.java:112)
-at com.testingshashtra.stepdefination.AddBankTest.enter(AddBankTest.java:45)
-at ✽.Enter 'ds' , 'abc','123456789123','Savings' ,'ABCD0012','123456789'(file:///D:/Git%20Projects/ResoProject/BG/src/main/resources/Features/AddBankFeatures.feature:25)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.testrunner.RunnerTest@134d211]" name="runScenario" duration-ms="32471" started-at="2021-03-03T12:26:23Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-03T12:26:56Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.testrunner.RunnerTest@134d211]" name="runScenario" duration-ms="11644" started-at="2021-03-04T10:27:06Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-04T10:27:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA["verify  bank name field"]]>
+                <![CDATA["verify  Account Number field for invalid data"]]>
               </value>
             </param>
             <param index="1">
@@ -138,190 +75,10 @@ at ✽.Enter 'ds' , 'abc','123456789123','Savings' ,'ABCD0012','123456789'(file:
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Cannot locate element with text: accountType
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ACER-PC', ip: '192.168.42.200', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_241'
-Driver info: driver.version: unknown]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: accountType
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ACER-PC', ip: '192.168.42.200', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_241'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
-at com.testingshshtra.pages.AddBankPage.selectAccountType(AddBankPage.java:112)
-at com.testingshashtra.stepdefination.AddBankTest.enter(AddBankTest.java:45)
-at ✽.Enter '12asssfd%vvd' , 'abc','123456789123','Savings' ,'ABCD0012','123456789'(file:///D:/Git%20Projects/ResoProject/BG/src/main/resources/Features/AddBankFeatures.feature:25)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.testrunner.RunnerTest@134d211]" name="runScenario" duration-ms="31717" started-at="2021-03-03T12:26:56Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-03T12:27:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["verify  bank name field"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[this feature test the add  bank functionality]"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Cannot locate element with text: accountType
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ACER-PC', ip: '192.168.42.200', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_241'
-Driver info: driver.version: unknown]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: accountType
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ACER-PC', ip: '192.168.42.200', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_241'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
-at com.testingshshtra.pages.AddBankPage.selectAccountType(AddBankPage.java:112)
-at com.testingshashtra.stepdefination.AddBankTest.enter(AddBankTest.java:45)
-at ✽.Enter 'jgjf dkfgkj' , 'abc','123456789123','Savings' ,'ABCD0012','123456789'(file:///D:/Git%20Projects/ResoProject/BG/src/main/resources/Features/AddBankFeatures.feature:25)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.testrunner.RunnerTest@134d211]" name="runScenario" duration-ms="34012" started-at="2021-03-03T12:27:27Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-03T12:28:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["verify  bank name field"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[this feature test the add  bank functionality]"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Cannot locate element with text: accountType
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ACER-PC', ip: '192.168.42.200', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_241'
-Driver info: driver.version: unknown]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: accountType
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ACER-PC', ip: '192.168.42.200', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_241'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
-at com.testingshshtra.pages.AddBankPage.selectAccountType(AddBankPage.java:112)
-at com.testingshashtra.stepdefination.AddBankTest.enter(AddBankTest.java:45)
-at ✽.Enter '' , 'abc','123456789123','Savings' ,'ABCD0012','123456789'(file:///D:/Git%20Projects/ResoProject/BG/src/main/resources/Features/AddBankFeatures.feature:25)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.testrunner.RunnerTest@134d211]" name="runScenario" duration-ms="32558" started-at="2021-03-03T12:28:01Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-03T12:28:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["verify  bank name field"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[this feature test the add  bank functionality]"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Cannot locate element with text: accountType
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ACER-PC', ip: '192.168.42.200', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_241'
-Driver info: driver.version: unknown]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: accountType
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ACER-PC', ip: '192.168.42.200', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_241'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
-at com.testingshshtra.pages.AddBankPage.selectAccountType(AddBankPage.java:112)
-at com.testingshashtra.stepdefination.AddBankTest.enter(AddBankTest.java:45)
-at ✽.Enter '12' , 'abc','123456789123','Savings' ,'ABCD0012','123456789'(file:///D:/Git%20Projects/ResoProject/BG/src/main/resources/Features/AddBankFeatures.feature:25)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.testrunner.RunnerTest@134d211]" name="runScenario" duration-ms="15610" started-at="2021-03-03T12:28:34Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-03T12:28:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify user able to update bank data"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[This Feature test the edit fuctionality]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.testrunner.RunnerTest@134d211]" name="runScenario" duration-ms="8271" started-at="2021-03-03T12:28:50Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-03T12:28:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["verify Login for valid input"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[This feature Test the login page  for valid and invalid Input]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.testrunner.RunnerTest@134d211]" name="runScenario" duration-ms="28412" started-at="2021-03-03T12:28:58Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-03T12:29:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["verify master menu shows submenu list"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[this feature test the main module functinality]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.testingshastra.testrunner.RunnerTest@134d211]" name="tearDownClass" is-config="true" duration-ms="2900" started-at="2021-03-03T12:29:26Z" finished-at="2021-03-03T12:29:29Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.testingshastra.testrunner.RunnerTest@134d211]" name="tearDownClass" is-config="true" duration-ms="2812" started-at="2021-03-04T10:27:18Z" finished-at="2021-03-04T10:27:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
