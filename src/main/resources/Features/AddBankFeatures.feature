@@ -13,26 +13,51 @@ Feature: this feature test the add  bank functionality
     And click on add bank button
     Then Enter '<bankName>' , '<accountName>','<accountNo>','<accountType>' ,'<IFSCcode>','<MICRcode>'
     And Click on submit button
-    And Assert Result in POPUP window 
+    And Assert Result in POPUP window
 
     Examples: 
       | bankName | accountName | accountNo    | accountType | IFSCcode | MICRcode  |
       | xyztss   | abc         | 123456789123 | Current     | ABCD0012 | 123456789 |
 
   @Smoke
-  Scenario Outline: verify  bank name field
+  Scenario Outline: verify  bank name field for invalid data
     Given click on bnak Menu
     And click on add bank button
     Then Enter '<bankName>' , '<accountName>','<accountNo>','<accountType>' ,'<IFSCcode>','<MICRcode>'
     And Click on submit button
-    And Assert Result in Label
+    And Assert  Result  of bank name in Label
 
     Examples: 
-      | bankName     | accountName | accountNo    | accountType | IFSCcode | MICRcode  |
-      |           12 | abc         | 123456789123 | Savings     | ABCD0012 | 123456789 |
-     # |       121223 | abc         | 123456789123 | Savings     | ABCD0012 | 123456789 |
-      | ds           | abc         | 123456789123 | Savings     | ABCD0012 | 123456789 |
-   #   | 12asssfd%vvd | abc         | 123456789123 | Savings     | ABCD0012 | 123456789 |
-    #  | jgjf dkfgkj  | abc         | 123456789123 | Savings     | ABCD0012 | 123456789 |
-   #   |              | abc         | 123456789123 | Savings     | ABCD0012 | 123456789 |
-    #  |           12 | abc         | 123456789123 | Savings     | ABCD0012 | 123456789 |
+      | bankName | accountName | accountNo    | accountType | IFSCcode | MICRcode  |
+      |       12 | abc         | 123456789123 | Savings     | ABCD0012 | 123456789 |
+      |          | abc         | 123456789123 | Savings     | ABCD0012 | 123456789 |
+      | ds       | abc         | 123456789123 | Savings     | ABCD0012 | 123456789 |
+
+  # | 12asssfd%vvd | abc         | 123456789123 | Savings     | ABCD0012 | 123456789 |
+  #  | jgjf dkfgkj  | abc         | 123456789123 | Savings     | ABCD0012 | 123456789 |
+  #   |              | abc         | 123456789123 | Savings     | ABCD0012 | 123456789 |
+  #  |           12 | abc         | 123456789123 | Savings     | ABCD0012 | 123456789 |
+  @Regression
+  Scenario Outline: verify account name for valid data
+    Given click on bnak Menu
+    And click on add bank button
+    Then Enter '<bankName>' , '<accountName>','<accountNo>','<accountType>' ,'<IFSCcode>','<MICRcode>'
+    And Click on submit button
+    And Assert Result in POPUP window
+
+    Examples: 
+      | bankName | accountName | accountNo    | accountType | IFSCcode | MICRcode  |
+      | pqrs     | abc         | 123456789123 | Current     | ABCD0012 | 123456789 |
+      | dena     | abc xud     | 123456789123 | Current     | ABCD0012 | 123456789 |
+
+  @Smoke
+  Scenario Outline: verify  bank name field for invalid data
+    Given click on bnak Menu
+    And click on add bank button
+    Then Enter '<bankName>' , '<accountName>','<accountNo>','<accountType>' ,'<IFSCcode>','<MICRcode>'
+    And Click on submit button
+    And Assert  Result  of account name in Label
+
+    Examples: 
+      | bankName | accountName | accountNo    | accountType | IFSCcode | MICRcode  |
+      | dena     |             | 123456789123 | Savings     | ABCD0012 | 123456789 |
