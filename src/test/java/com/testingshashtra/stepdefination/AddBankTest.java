@@ -62,19 +62,24 @@ public void enter(String bankName, String accountName, String accountNo, String 
 		Assert.assertTrue(Actual.equals("Bank Added."));
 		
 	}
-	@Then("Assert Result in Label")
-	public void Assert_Result_in_Label() {
+	@Then("Assert  Result  of bank name in Label")
+	public void Assert_Result_BankName_in_Label() {
 		LOG.info("Asserting Error in Label ");
 		Actual = addbank.getText_BankName_Error();
-		if(addbank.getText_BankName_Error().isEmpty()) {
-			 addbank.clickOnSubmitButton();	
-		     addbank.clickOnOKButton();
-		}else {
-		    
-		     LOG.info("Message Get "+addbank.getText_BankName_Error());
+		if(!Actual.isEmpty()) {
+			 LOG.info("Message Get "+ Actual);
 			 Assert.assertTrue(Actual.contains("Please Enter Bank Name"));
 		}
 		
+	}
+	@Then("Assert  Result  of account name in Label")
+	public void Assert_Result_accountName_in_Label() {
+		LOG.info("Asserting Error in Label ");
+		Actual = addbank.getText_AccountName_Error();
+		if(!Actual.isEmpty()) {
+			 LOG.info("Message Get "+Actual);
+			 Assert.assertTrue(Actual.contains("Please Enter Account Name"));
+		}
 	}
 	
 
